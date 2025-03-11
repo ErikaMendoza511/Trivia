@@ -3,16 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colombia Trivia: Acceder</title>
+    <title>Colombia Trivia: Acceder</title> 
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("./Images/COLOMBIA\ TRIVIA.png");
+    background-size: cover;
+    color: #ffffff;
+}
+img {
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.datos {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.103);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+    
+    gap: 20px;
+    
+}
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid rgb(21, 0, 141);
+  padding: 20px;
+  background-color: #ffffff1f;
+}
+input[type=password] {
+  border: none;
+  border-bottom: 2px solid rgb(21, 0, 141);
+  padding: 20px;
+  background-color: #ffffff1f;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #ffffff52;
+    width: 50%;
+    border-radius: 5px;
+    align-content: center;
+    display: inline-flex;
+    padding:20px;
+}
+button {
+    background-color: #d12626;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-style: double;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 20px 40px;
+}
+button :hover{
+    background-color: #ffffff;
+    color: #d12626;
+    padding: 10px 20px;
+    border-style: dotted;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 20px 40px;
+}
+footer {
+    color: #ffffff;
+    background-color: #ffffff3d;
+    
+}
+    </style>
 </head>
 <body>
     <header>
-        <h1>Para Acceder A La Trivia Ingrese Usuario Y Contraseña</h1>
+        <div class="titulo">
+        <img src="./Images/COLOMBIA TRIVIA.jpg" alt="Logo">
+        <p>Ingrese <strong>Usuario</strong> y <strong>Contraseña</strong></p>
+        </div>
     </header>
     <main>
-        <input type="text" id="usuario" placeholder="Usuario" required>
-        <input type="password" id="contrasena" placeholder="Contraseña" required>
+        <div class="datos">
+        <form action="send"> <input type="text" id="usuario" placeholder="Usuario" legend="Ingrese su Usuario" required="Ingrese Usuario">
+                <input type="password" id="contrasena" placeholder="Contraseña" legend="Ingrese su Contraseña"required="Ingrese Contraseña"></form>
+        
+       
         <a href="./index.html"><button type="acceder" id="acceder">Acceder</button></a>
+        </div>
     </main>
     <footer>
         <p>Colombia Trivia &copy; 2025</p>
