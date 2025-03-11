@@ -96,5 +96,5 @@ Strings
 Variables
 Uso de condicionales (if-else, switch, operador ternario, lógica booleana)
 Funciones
-📌 **Recuerda documentar tu proceso en un archivo README.md** e incluir imágenes de tus prototipos en papel. Comparte cómo fue tu proceso de diseño y los cambios que realizaste en el camino. ¡Mucho éxito! 🚀..............................................................................................
+📌 **Recuerda documentar tu proceso en un archivo README.md** e incluir imágenes de tus prototipos en papel. Comparte cómo fue tu proceso de diseño y los cambios que realizaste en el camino. ¡Mucho éxito! 🚀.............................................................................................. aqui hay cambio 
 
