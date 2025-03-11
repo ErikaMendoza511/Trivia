@@ -1,8 +1,8 @@
 const preguntas = [
     {
-        pregunta: "¿Cuál es el lenguaje que hace que una página web sea interactiva?",
-        opciones: ["HTML", "CSS", "JavaScript", "Python"],
-        respuesta: "JavaScript"
+        pregunta: "¿Cuál de las siguientes festividades es considerada la más importante del Carnaval de Barranquilla?",
+        opciones: ["La Batalla de Flores", "El Desfile de Silleteros", "La Feria de Cali", "El Festival Vallenato"],
+        respuesta: "La Batalla de Flores"
     }
 ];
 

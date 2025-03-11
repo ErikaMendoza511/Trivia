@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/aa/05/3e/aa053ea7fefa47f62d679083c1be83e6.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -37,7 +38,7 @@ h1 {
 }
 
 #opciones button:hover {
-    background-color: #ddd;
+    background-color: #9dcdf5;
 }
 
 .correcto {
