@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia Interactiva</title>
+    <title>Trivia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kablammo&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1> Colombia Trivia</h1>
-        <p id="pregunta"></p>
-        <div id="opciones"></div>
-        <p id="mensaje"></p>
+    
+    <div class="container" id="pantallaInicio">
+        <h1>Bienvenido a Trivia Colombia</h1>
+        <button onclick="iniciarTrivia()">Iniciar</button>
     </div>
+
+    <div class="container hidden" id="pantallaNombre">
+        <h2>Regálanos tu nombre</h2>
+        <input type="text" id="nombreUsuario" placeholder="Escribe tu nombre aquí">
+        <button onclick="guardarNombre()">Continuar</button>
+    </div>
+
+    <div class="container hidden" id="pantallaTrivia">
+        <h2 id="preguntaTexto"></h2>
+        <div id="opciones"></div>
+        <p id="mensaje" class="hidden"></p>
+        
+    </div>
+    
+    <div class="container hidden" id="pantallaResultados">
+        <h2>¡Felicidades!</h2>
+        <p id="resultadoTexto"></p>
+        <button onclick="reiniciarTrivia()">Reiniciar Trivia</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
