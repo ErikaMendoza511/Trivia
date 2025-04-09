@@ -1,5 +1,5 @@
 let preguntas = [
-    { pregunta: "¿Cuál es el Ríomás largo de Colombia?", opciones: ["A. Río Magdalena", "B. Río Orinoco", "C. Río Cauca", "D. Río Bogotá"], respuesta: "A. Río Magdalena" },
+    { pregunta: "¿Cuál es el Río más largo de Colombia?", opciones: ["A. Río Magdalena", "B. Río Orinoco", "C. Río Cauca", "D. Río Bogotá"], respuesta: "A. Río Magdalena" },
     { pregunta: "¿En qué año ganó Colombia la Copa América?", opciones: ["A. 1999", "B. 2001", "C. 2003", "D. 2005"], respuesta: "B. 2001" },
     { pregunta: "¿Qué océanos rodean a Colombia?", opciones: ["A. Atlántico y Ártico", "B. Pacífico y Atlántico", "C. Índico y Atlántico", "D. Solo el Pacífico"], respuesta: "B. Pacífico y Atlántico" },
     { pregunta: "¿Qué escritor colombiano ganó el Premio Nobel de Literatura en 1982?", opciones: ["A. Álvaro Mutis", "B. Jorge Isaacs", "C. Gabriel García Márquez", "D. William Ospina"], respuesta: "C. Gabriel García Márquez" },
